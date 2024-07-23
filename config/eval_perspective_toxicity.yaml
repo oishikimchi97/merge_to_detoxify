@@ -1,0 +1,12 @@
+seed: 42
+model_path: ""
+project_name: ""
+wandb: true
+log_text: true
+
+num_sample: 25
+toxicity_threshold: 0.5
+
+defaults:
+  - eval/toxicity: perspective
+  - _self_

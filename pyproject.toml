@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "mtd"
+version = "0.1.0"
+description = "The official implementation of the paper 'Decoupling Noise and Toxic Parameters for Language Model Detoxification by Task Vector Merging'"
+authors = ["Anonymous for the COLM2024 reviewing"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+accelerate = "*"
+awsebcli = "3.20.8"
+bitsandbytes = "*"
+botocore = "1.31.26"
+evaluate = "0.4.0"
+peft = "0.4.0"
+transformers = "*"
+trl = "0.4.7"
+urllib3 = "1.26.5"
+scipy = "*"
+wandb = "0.15.12"
+detoxify = "*"
+hydra-core = "1.3.2"
+xformer = "*"
+deepspeed = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

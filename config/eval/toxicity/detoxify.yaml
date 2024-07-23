@@ -1,0 +1,6 @@
+name: detoxify
+dataset_path: ${.prompt.dataset_path}
+
+defaults:
+  - prompt: real_toxic_prompt/challenge
+  - _self_

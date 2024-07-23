@@ -1,0 +1,7 @@
+seed: 42
+model_path:
+
+bin_max: 0.01
+num_bin: 500
+
+wandb: true

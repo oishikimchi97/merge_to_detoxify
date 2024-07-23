@@ -1,0 +1,7 @@
+seed: 42
+split_dataset_prefix: "split"
+sub_dataset_prefix: "sub"
+split: 5
+
+defaults:
+  - dataset: train/toxic_civil_comments

@@ -1,0 +1,11 @@
+seed: 42
+model_path: ""
+project_name: ""
+wandb: true
+log_text: true
+
+defaults:
+  - dataset/perplexity: wikitext
+  - eval/toxicity: detoxify
+  - eval/perplexity: perplexity
+  - _self_

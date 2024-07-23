@@ -1,0 +1,11 @@
+seed: 42
+model_path: ""
+project_name: ""
+
+batch_size: 16
+num_sample: 25
+wandb: false
+
+defaults:
+  - eval/toxicity: perspective
+  - _self_

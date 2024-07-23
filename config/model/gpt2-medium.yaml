@@ -1,0 +1,7 @@
+defaults:
+  - trainer: adamw-descent
+
+name: "gpt2-medium"
+hf_key: "openai-community/gpt2-medium"
+
+args:

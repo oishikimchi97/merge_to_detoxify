@@ -1,0 +1,6 @@
+name: perspective
+dataset_path: ${.prompt.dataset_path}
+
+defaults:
+  - prompt: real_toxic_prompt/normal
+  - _self_

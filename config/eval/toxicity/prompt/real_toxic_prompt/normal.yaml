@@ -1,0 +1,9 @@
+name: real_toxic_prompt_normal
+dataset_path: "datasets/real_toxic_prompts_normal/sampled_${.sample_num}"
+sample_num: 1000
+label: normal
+hf_key: "allenai/real-toxicity-prompts"
+hf_split: "train"
+prompt_label: "prompt"
+prompt_toxic_label: "challenging"
+prompt_text_field: "text"

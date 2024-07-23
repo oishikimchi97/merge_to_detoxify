@@ -1,0 +1,15 @@
+name: "paged_adamw_ascent"
+save_epoch: 5
+loss_type: "grad_ascent"
+
+args:
+  lr_scheduler_type: "linear"
+  optim: "paged_adamw_32bit"
+  learning_rate: 1e-5
+  ddp_find_unused_parameters: false
+  gradient_accumulation_steps: 1
+  per_device_train_batch_size: 16
+  per_device_eval_batch_size: 16
+  num_train_epochs: 5
+  evaluation_strategy: "epoch"
+  do_eval: true

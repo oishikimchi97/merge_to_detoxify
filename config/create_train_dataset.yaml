@@ -1,0 +1,5 @@
+seed: 42
+
+defaults:
+  - dataset: train/toxic_civil_comments
+  - _self_

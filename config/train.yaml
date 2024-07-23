@@ -1,0 +1,8 @@
+seed: 42
+defaults:
+  - model: gpt2
+  - dataset: train/toxic_civil_comments
+  - _self_
+
+project_name: "${model.name}-${dataset.name}-${dataset.split}-${model.trainer.name}-train-ep${model.trainer.args.num_train_epochs}"
+wandb: true

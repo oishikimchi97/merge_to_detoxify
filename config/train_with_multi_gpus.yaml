@@ -1,0 +1,10 @@
+seed: 42
+defaults:
+  - model: phi-1_5
+  - trainer: paged_adamw-descent
+  - dataset: train/toxic_civil_comments
+  - optional model/trainer@trainer: ${model}
+  - _self_
+
+project_name: "${model.name}-${dataset.name}-${dataset.split}-${trainer.name}-train"
+wandb: false

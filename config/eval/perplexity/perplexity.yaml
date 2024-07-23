@@ -1,0 +1,6 @@
+args:
+  dataset_path: ${dataset.perplexity.dataset_path}
+  dataset_name: ${dataset.perplexity.dataset_name}
+  dataset_split: ${dataset.perplexity.split}
+  batch_size: 8
+  stride: 512

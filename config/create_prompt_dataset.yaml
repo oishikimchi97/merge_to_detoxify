@@ -1,0 +1,5 @@
+seed: 42
+
+defaults:
+  - eval@dataset: toxicity/prompt/real_toxic_prompt/challenge
+  - _self_

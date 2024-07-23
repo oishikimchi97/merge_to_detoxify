@@ -1,0 +1,9 @@
+name: toxigen_toxic_prompt
+dataset_path: "datasets/toxigen_prompts_toxic/sampled_${.sample_num}"
+sample_num: 1000
+label: toxic
+hf_key: "skg/toxigen-data"
+hf_sub_set: "train"
+prompt_label: "prompt"
+prompt_toxic_label: "prompt_label"
+prompt_text_field:

@@ -1,0 +1,6 @@
+name: toxigen_hatebert
+dataset_path: ${.prompt.dataset_path}
+
+defaults:
+  - prompt: toxigen/toxic
+  - _self_

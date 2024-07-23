@@ -1,0 +1,15 @@
+name: adamw_descent
+save_epoch: 5
+loss_type: "grad_descent"
+
+args:
+  lr_scheduler_type: "linear"
+  optim: "adamw_torch"
+  learning_rate: 1e-5
+  gradient_accumulation_steps: 1
+  per_device_train_batch_size: 16
+  per_device_eval_batch_size: 16
+  num_train_epochs: 5
+  evaluation_strategy: "epoch"
+  do_eval: true
+  group_by_length: true
